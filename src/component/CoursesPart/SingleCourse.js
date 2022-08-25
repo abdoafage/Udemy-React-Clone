@@ -5,7 +5,7 @@ function SingleCourse(props) {
   const { instructors, image, title, rating, stars, price } = props;
 
   return (
-    <div className={style.sigleCourse}>
+    <div className={`${style.sigleCourse} `}>
       <div className={style.sigleCourseImg}>
         <a href="">
           <img src={image} alt="python" />

@@ -4,7 +4,7 @@ import style from "./SingleCoursesSection.module.css";
 
 function SingleCoursesSection(props) {
   // const img1 = "./image/python1.jpg";
-  const dataCategory= props.data
+  const dataCategory = props.data;
   return (
     <div className={style.showCourses}>
       <div className={style.hderOfCoursesSection}>
